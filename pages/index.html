@@ -15,10 +15,10 @@
   <body class="bg-[#f3f5f5] font-['Poppins',sans-serif] text-[#101010]">
     <main class="px-4 pb-20 pt-6 sm:px-6 lg:px-8">
       <section class="mx-auto max-w-[1200px]">
-        <header class="flex items-center justify-between pb-5 pt-2">
-          <div class="w-16"></div>
-          <nav aria-label="Primary navigation">
-            <ul class="flex items-center gap-6 text-[11px] font-medium text-[#3a3a3a] sm:gap-8 sm:text-xs">
+        <header class="animate-fade-in flex flex-col items-center gap-4 pb-5 pt-2 sm:flex-row sm:justify-between sm:gap-0">
+          <div class="hidden w-16 sm:block"></div>
+          <nav aria-label="Primary navigation" class="w-full sm:w-auto">
+            <ul class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[11px] font-medium text-[#3a3a3a] sm:gap-8 sm:text-xs">
               <li><a class="transition hover:text-[#16a077]" href="#">Booking</a></li>
               <li><a class="transition hover:text-[#16a077]" href="#">Facilities</a></li>
               <li><a class="transition hover:text-[#16a077]" href="#">About Us</a></li>
@@ -28,14 +28,14 @@
           </nav>
           <button
             type="button"
-            class="rounded-full bg-[#23b684] px-5 py-2 text-xs font-medium text-white shadow-sm transition hover:bg-[#1ca476]"
+            class="hover-lift w-full rounded-full bg-[#23b684] px-5 py-2 text-xs font-medium text-white shadow-sm transition hover:bg-[#1ca476] sm:w-auto"
           >
             Login
           </button>
         </header>
 
         <div
-          class="relative overflow-visible rounded-[28px]"
+          class="animate-fade-up relative overflow-visible rounded-[28px]"
           style="
             background-image: url('../img/Header-1.jpg');
             background-size: cover;
@@ -44,16 +44,16 @@
           "
         >
           <div class="grid min-h-[420px] lg:grid-cols-2">
-            <div class="flex flex-col justify-center bg-[#dfe6e6]/90 px-7 py-10 sm:px-12 lg:py-12">
-              <h1 class="max-w-[360px] text-4xl font-semibold leading-[1.18] text-[#111111] sm:text-[54px] sm:leading-[1.12]">
+            <div class="flex flex-col justify-center bg-[#dfe6e6]/90 px-6 py-10 sm:px-12 lg:py-12">
+              <h1 class="max-w-[360px] text-[38px] font-semibold leading-[1.15] text-[#111111] sm:text-[54px] sm:leading-[1.12]">
                 Find your perfect place to stay
               </h1>
               <p class="mt-5 max-w-[390px] text-sm leading-7 text-[#616161]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               </p>
 
-              <a href="#" class="mt-10 inline-flex items-center gap-3 text-sm font-medium text-[#1d1d1d]">
-                <span class="flex h-7 w-7 items-center justify-center rounded-full bg-[#d4efe7]">
+              <a href="#" class="hover-lift mt-10 inline-flex items-center gap-3 text-sm font-medium text-[#1d1d1d]">
+                <span class="float-soft flex h-7 w-7 items-center justify-center rounded-full bg-[#d4efe7]">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="h-3 w-3 fill-[#1baa7d]">
                     <path d="M6 4.8A1 1 0 0 1 7.53 4L15 9.2a1 1 0 0 1 0 1.6l-7.47 5.2A1 1 0 0 1 6 15.2V4.8Z" />
                   </svg>
@@ -66,7 +66,7 @@
           </div>
 
           <form
-            class="mx-auto mt-4 grid w-[93%] gap-3 rounded-[26px] bg-white p-3 shadow-[0_14px_50px_rgba(27,41,36,0.12)] lg:absolute lg:bottom-[-44px] lg:left-1/2 lg:mt-0 lg:w-[90%] lg:-translate-x-1/2 lg:grid-cols-[1fr_1fr_1fr_1fr_auto] lg:items-center lg:gap-0 lg:p-3"
+            class="animate-fade-up animate-delay-2 mx-auto mt-4 grid w-[93%] gap-3 rounded-[26px] bg-white p-3 shadow-[0_14px_50px_rgba(27,41,36,0.12)] lg:absolute lg:bottom-[-44px] lg:left-1/2 lg:mt-0 lg:w-[90%] lg:-translate-x-1/2 lg:grid-cols-[1fr_1fr_1fr_1fr_auto] lg:items-center lg:gap-0 lg:p-3"
           >
             <label class="flex items-center gap-2 rounded-2xl px-4 py-2 lg:rounded-none lg:border-r lg:border-[#ececec]">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#24ae82]" viewBox="0 0 24 24" fill="currentColor">
@@ -120,7 +120,7 @@
 
             <button
               type="submit"
-              class="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-[#23b684] px-6 text-sm font-medium text-white transition hover:bg-[#1ca476]"
+              class="hover-lift inline-flex h-12 items-center justify-center gap-2 rounded-full bg-[#23b684] px-6 text-sm font-medium text-white transition hover:bg-[#1ca476]"
             >
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <circle cx="11" cy="11" r="7" />
@@ -132,7 +132,7 @@
         </div>
       </section>
 
-      <section class="mx-auto mt-24 max-w-[1200px]">
+      <section class="animate-fade-up mx-auto mt-24 max-w-[1200px]">
         <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <h2 class="text-3xl font-semibold leading-tight text-[#0f0f0f] sm:text-[45px]">
@@ -145,18 +145,18 @@
 
           <a
             href="#"
-            class="inline-flex h-10 items-center justify-center rounded-full bg-[#e6f4ef] px-6 text-sm font-medium text-[#24ae82] transition hover:bg-[#d9eee7]"
+            class="hover-lift inline-flex h-10 items-center justify-center rounded-full bg-[#e6f4ef] px-6 text-sm font-medium text-[#24ae82] transition hover:bg-[#d9eee7]"
           >
             View all
           </a>
         </div>
 
         <div class="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-          <article class="overflow-hidden rounded-[20px] border border-[#ecf1ef] bg-[#f9fbfb]">
+          <article class="hover-lift overflow-hidden rounded-[20px] border border-[#ecf1ef] bg-[#f9fbfb]">
             <img src="../img/image.png" alt="Danubius Hotel Regents Park exterior" class="h-[258px] w-full object-cover" />
             <div class="p-5">
               <p class="text-xs text-[#7f7f7f]">London NW8 7JT, England</p>
-              <h3 class="mt-2 text-[27px] font-medium leading-[1.25] text-[#161616]">Danubius Hotel Regents Park</h3>
+              <h3 class="mt-2 text-[22px] font-medium leading-[1.25] text-[#161616] sm:text-[27px]">Danubius Hotel Regents Park</h3>
               <div class="mt-5 flex items-center justify-between gap-4">
                 <p class="text-sm font-medium text-[#2a2a2a]">$200 Par Night</p>
                 <div class="flex items-center gap-2">
@@ -167,11 +167,11 @@
             </div>
           </article>
 
-          <article class="overflow-hidden rounded-[20px] border border-[#ecf1ef] bg-[#f9fbfb]">
+          <article class="hover-lift overflow-hidden rounded-[20px] border border-[#ecf1ef] bg-[#f9fbfb]">
             <img src="../img/image-1.png" alt="The Resident Soho modern villa with pool" class="h-[258px] w-full object-cover" />
             <div class="p-5">
               <p class="text-xs text-[#7f7f7f]">London NW8 7JT, England</p>
-              <h3 class="mt-2 text-[27px] font-medium leading-[1.25] text-[#161616]">The Resident Soho</h3>
+              <h3 class="mt-2 text-[22px] font-medium leading-[1.25] text-[#161616] sm:text-[27px]">The Resident Soho</h3>
               <div class="mt-5 flex items-center justify-between gap-4">
                 <p class="text-sm font-medium text-[#2a2a2a]">$200 Par Night</p>
                 <div class="flex items-center gap-2">
@@ -182,11 +182,11 @@
             </div>
           </article>
 
-          <article class="overflow-hidden rounded-[20px] border border-[#ecf1ef] bg-[#f9fbfb]">
+          <article class="hover-lift overflow-hidden rounded-[20px] border border-[#ecf1ef] bg-[#f9fbfb]">
             <img src="../img/image-2.png" alt="Landon Bridge Hotel white architecture" class="h-[258px] w-full object-cover" />
             <div class="p-5">
               <p class="text-xs text-[#7f7f7f]">London NW8 7JT, England</p>
-              <h3 class="mt-2 text-[27px] font-medium leading-[1.25] text-[#161616]">Landon Bridge Hotel</h3>
+              <h3 class="mt-2 text-[22px] font-medium leading-[1.25] text-[#161616] sm:text-[27px]">Landon Bridge Hotel</h3>
               <div class="mt-5 flex items-center justify-between gap-4">
                 <p class="text-sm font-medium text-[#2a2a2a]">$200 Par Night</p>
                 <div class="flex items-center gap-2">
@@ -199,7 +199,7 @@
         </div>
       </section>
 
-      <section class="mx-auto mt-24 max-w-[1200px]">
+      <section class="animate-fade-up mx-auto mt-24 max-w-[1200px]">
         <div class="grid gap-8 lg:grid-cols-[1fr_2fr] lg:items-start">
           <div class="max-w-[360px]">
             <h2 class="text-3xl font-semibold leading-tight text-[#0f0f0f] sm:text-[48px]">
@@ -210,26 +210,26 @@
             </p>
             <button
               type="button"
-              class="mt-8 inline-flex h-12 items-center justify-center rounded-full bg-[#23b684] px-8 text-sm font-medium text-white transition hover:bg-[#1ca476]"
+              class="hover-lift mt-8 inline-flex h-12 items-center justify-center rounded-full bg-[#23b684] px-8 text-sm font-medium text-white transition hover:bg-[#1ca476]"
             >
               Contact Now
             </button>
           </div>
 
           <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            <img src="../img/Private Workspace cart.jpg" alt="Private Workspace" class="h-[214px] w-full object-cover" />
-            <img src="../img/Private Workspace cart.jpg" alt="Parking Area" class="h-[236px] w-full object-cover" />
-            <img src="../img/Breakfast cart.jpg" alt="Breakfast" class="h-[214px] w-full object-cover" />
-            <img src="../img/Free Wifi cart.jpg" alt="Free Wifi" class="h-[214px] w-full object-cover" />
-            <img src="../img/Free Electricity cart.jpg" alt="Free Electricity" class="h-[214px] w-full object-cover" />
-            <img src="../img/Swimming Pool cart.jpg" alt="Swimming Pool" class="h-[214px] w-full object-cover" />
-            <img src="../img/exercise Space cart.jpg" alt="Exercise Space" class="h-[214px] w-full object-cover" />
-            <img src="../img/Other Service cart.jpg" alt="Other Service" class="h-[214px] w-full object-cover" />
+            <img src="../img/Private Workspace cart.jpg" alt="Private Workspace" class="hover-scale-soft h-[214px] w-full object-cover" />
+            <img src="../img/Private Workspace cart.jpg" alt="Parking Area" class="hover-scale-soft h-[236px] w-full object-cover" />
+            <img src="../img/Breakfast cart.jpg" alt="Breakfast" class="hover-scale-soft h-[214px] w-full object-cover" />
+            <img src="../img/Free Wifi cart.jpg" alt="Free Wifi" class="hover-scale-soft h-[214px] w-full object-cover" />
+            <img src="../img/Free Electricity cart.jpg" alt="Free Electricity" class="hover-scale-soft h-[214px] w-full object-cover" />
+            <img src="../img/Swimming Pool cart.jpg" alt="Swimming Pool" class="hover-scale-soft h-[214px] w-full object-cover" />
+            <img src="../img/exercise Space cart.jpg" alt="Exercise Space" class="hover-scale-soft h-[214px] w-full object-cover" />
+            <img src="../img/Other Service cart.jpg" alt="Other Service" class="hover-scale-soft h-[214px] w-full object-cover" />
           </div>
         </div>
       </section>
 
-      <section class="mx-auto mt-24 max-w-[1200px]">
+      <section class="animate-fade-up mx-auto mt-24 max-w-[1200px]">
         <div
           class="overflow-hidden rounded-[26px] lg:grid lg:grid-cols-[1.08fr_0.92fr] lg:items-stretch"
           style="
@@ -254,7 +254,7 @@
               </p>
               <button
                 type="button"
-                class="mt-8 inline-flex h-12 items-center justify-center rounded-full bg-[#23b684] px-8 text-sm font-medium text-white transition hover:bg-[#1ca476]"
+              class="hover-lift mt-8 inline-flex h-12 items-center justify-center rounded-full bg-[#23b684] px-8 text-sm font-medium text-white transition hover:bg-[#1ca476]"
               >
                 Explore More
               </button>
@@ -263,7 +263,7 @@
         </div>
       </section>
 
-      <section class="mx-auto mt-24 max-w-[1200px]">
+      <section class="animate-fade-up mx-auto mt-24 max-w-[1200px]">
         <div
           class="overflow-hidden rounded-[26px]"
           style="
@@ -290,7 +290,7 @@
         </div>
       </section>
 
-      <section class="mx-auto mt-24 max-w-[1200px]">
+      <section class="animate-fade-up mx-auto mt-24 max-w-[1200px]">
         <div
           class="relative overflow-hidden rounded-[26px] px-7 pb-7 pt-8 sm:px-10 sm:pb-8 sm:pt-10 lg:min-h-[620px] lg:px-12 lg:pb-10 lg:pt-12"
           style="
@@ -306,7 +306,7 @@
             </h2>
           </div>
 
-          <div class="mt-56 rounded-[24px] bg-white/96 p-6 shadow-[0_18px_50px_rgba(27,41,36,0.14)] sm:p-8 lg:absolute lg:bottom-8 lg:left-8 lg:right-8 lg:mt-0 lg:flex lg:items-center lg:justify-between lg:gap-8">
+          <div class="animate-fade-up animate-delay-1 mt-40 rounded-[24px] bg-white/96 p-6 shadow-[0_18px_50px_rgba(27,41,36,0.14)] sm:mt-48 sm:p-8 lg:absolute lg:bottom-8 lg:left-8 lg:right-8 lg:mt-0 lg:flex lg:items-center lg:justify-between lg:gap-8">
             <div class="max-w-[430px]">
               <h3 class="text-2xl font-semibold text-[#111111] sm:text-[38px]">
                 Location of our Hotels
@@ -324,7 +324,7 @@
               />
               <button
                 type="submit"
-                class="inline-flex h-13 items-center justify-center rounded-full bg-[#23b684] px-8 text-sm font-medium text-white transition hover:bg-[#1ca476]"
+                class="hover-lift inline-flex h-13 w-full items-center justify-center rounded-full bg-[#23b684] px-8 text-sm font-medium text-white transition hover:bg-[#1ca476] sm:w-auto"
               >
                 Contact
               </button>
@@ -333,13 +333,13 @@
         </div>
       </section>
 
-      <footer class="mx-auto mt-24 max-w-[1200px] pb-12">
-        <div class="grid gap-10 border-t border-[#e4e9e7] pt-10 md:grid-cols-[1.2fr_0.8fr_0.8fr_0.8fr]">
-          <div class="max-w-[270px]">
+      <footer class="animate-fade-up mx-auto mt-24 max-w-[1200px] pb-12">
+        <div class="grid gap-10 border-t border-[#e4e9e7] pt-10 text-center md:grid-cols-[1.2fr_0.8fr_0.8fr_0.8fr] md:text-left">
+          <div class="max-w-[270px] justify-self-center md:justify-self-start">
             <p class="text-sm leading-7 text-[#676e6b]">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             </p>
-            <div class="mt-6 flex items-center gap-4">
+            <div class="mt-6 flex items-center justify-center gap-4 md:justify-start">
               <a href="#" aria-label="Facebook" class="transition hover:opacity-80">
                 <img src="../img/Group 23.svg" alt="Facebook" class="h-4 w-4" />
               </a>
